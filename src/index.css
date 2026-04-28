@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "daisyui/daisyui.css";
+/* custom theme */
+@plugin "daisyui/theme" {
+  name: "mytheme";
+  default: true;
+
+  --color-primary: #caeb66;
+  --color-secondary: #056873;
+  --color-secondary: teal;
+}
