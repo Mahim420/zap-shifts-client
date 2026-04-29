@@ -1,3 +1,4 @@
+import BankingSystem from "./BankingSystem/BankingSystem";
 import Banner from "./Banner/Banner";
 import Benefits from "./Benefits.jsx/Benefits";
 import Brands from "./Brands/Brands";
@@ -72,6 +73,11 @@ const Home = () => {
       {/* Benefits Sections */}
       <section className="mt-24">
         <Benefits></Benefits>
+      </section>
+
+      {/* Banking sections */}
+      <section className="mt-20">
+        <BankingSystem></BankingSystem>
       </section>
     </div>
   );
