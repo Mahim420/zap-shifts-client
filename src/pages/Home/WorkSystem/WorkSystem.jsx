@@ -1,4 +1,4 @@
-import deliveryVan from "../../assets/delivery-van.png";
+import deliveryVan from "../../../assets/delivery-van.png";
 
 const WorkSystem = ({ data }) => {
   const { title, description } = data;
@@ -7,7 +7,7 @@ const WorkSystem = ({ data }) => {
       <div className="card-body">
         <img className="w-12 h-12" src={deliveryVan} alt="" />
         <h2 className="card-title">{title}</h2>
-        <p>{description}</p>
+        <p style={{ color: "#606060" }}>{description}</p>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer footer-horizontal footer-center bg-black text-primary-content p-10">
       <aside>
         <Logo></Logo>
-        <p className="font-bold">
+        <p className="font-bold" style={{ color: "#606060" }}>
           ACME Industries Ltd.
           <br />
           Providing reliable tech since 1992

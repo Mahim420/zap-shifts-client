@@ -1,6 +1,5 @@
-import serviceImg from "../../assets/service.png";
-
-const Services = ({ data }) => {
+import serviceImg from "../../../assets/service.png";
+const ServiceCard = ({ data }) => {
   const { title, description } = data;
   return (
     <div className="card hover:bg-amber-300 bg-base-100 mt- shadow-sm">
@@ -15,4 +14,4 @@ const Services = ({ data }) => {
   );
 };
 
-export default Services;
+export default ServiceCard;
