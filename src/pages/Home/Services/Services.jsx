@@ -3,7 +3,6 @@ import ServiceCard from "./ServiceCard";
 
 const Services = ({ servicesDataPromise }) => {
   const servicesData = use(servicesDataPromise);
-  console.log(servicesData);
   return (
     <section className="flex flex-col p-24 mt-24 rounded-3xl bg-secondary items-center">
       <div className="text-center text-white w-96">
