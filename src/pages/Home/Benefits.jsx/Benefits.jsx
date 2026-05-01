@@ -6,7 +6,7 @@ const Benefits = () => {
     <section>
       <div className="border border-dashed"></div>
       <div className="mt-20 mb-20">
-        <div className="card p-14 mt-11 card-side bg-base-200 shadow-sm">
+        <div className="card p-14 mt-11 card-side bg-base-100 shadow-sm">
           <figure>
             <img className="w-56 h-56" src={trackingImg} alt="Movie" />
           </figure>

@@ -6,7 +6,7 @@ import router from "./routes/Router.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div data-theme="mytheme">
+    <div className="bg-base-300" data-theme="mytheme">
       <RouterProvider router={router}></RouterProvider>
     </div>
   </StrictMode>,

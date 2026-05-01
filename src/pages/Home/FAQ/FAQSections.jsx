@@ -1,4 +1,5 @@
 import { FaArrowCircleLeft } from "react-icons/fa";
+import Button from "../../../components/Button/Button";
 
 const FAQSections = () => {
   return (
@@ -55,9 +56,7 @@ const FAQSections = () => {
         </div>
       </section>
       <div className="flex items-center gap-2">
-        <button className="btn btn-xs sm:btn-sm btn-primary text-black md:btn-md">
-          See More FAQ's
-        </button>
+        <Button className="bg-primary" text={"See More FAQ's"}></Button>
 
         <FaArrowCircleLeft className="text-black rotate-135" size={40} />
       </div>

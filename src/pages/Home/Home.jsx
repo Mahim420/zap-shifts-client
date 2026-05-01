@@ -1,4 +1,3 @@
-import Footer from "../../SharedLayout/Footer";
 import BankingSystem from "./BankingSystem/BankingSystem";
 import Banner from "./Banner/Banner";
 import Benefits from "./Benefits.jsx/Benefits";
@@ -48,8 +47,8 @@ const Home = () => {
 
       {/* work system sections */}
       <section
-        className="max-w-5xl mt-24 
-       mx-auto bg-base-200 p-10"
+        className="max-w-5xl rounded-3xl mt-24 
+       mx-auto bg-base-100 p-10"
       >
         <h4 className="text-2xl mb-6 font-semibold">How it's works</h4>
         <div className="flex gap-6">
@@ -92,11 +91,6 @@ const Home = () => {
       {/* FAQ sections */}
       <section className="flex justify-center  mt-24">
         <FAQSections></FAQSections>
-      </section>
-
-      {/* Footer sections */}
-      <section className="mt-24">
-        <Footer></Footer>
       </section>
     </div>
   );

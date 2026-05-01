@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Story",
+    "content": [
+      "We started with a simple promise — to make parcel delivery fast, reliable, and stress-free.",
+      "Over the years, our commitment to real-time tracking, efficient logistics, and customer-first service has made us a trusted partner for thousands.",
+      "Whether it's a personal gift or a time-sensitive business delivery, we ensure it reaches its destination — on time, every time."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mission",
+    "content": [
+      "Our mission is to simplify logistics and make delivery accessible for everyone.",
+      "We aim to provide fast, transparent, and reliable courier services through modern technology and dedicated support.",
+      "By focusing on customer satisfaction, we continuously improve to meet growing delivery demands efficiently."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Success",
+    "content": [
+      "Our journey is marked by consistent growth and customer trust.",
+      "We have successfully delivered thousands of parcels with high efficiency and accuracy.",
+      "Our dedication to service excellence has helped us build long-term relationships with individuals and businesses."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Team & Others",
+    "content": [
+      "Our team is made up of passionate individuals committed to delivering excellence.",
+      "From operations to customer support, everyone works together to ensure smooth and timely deliveries.",
+      "We believe in collaboration, innovation, and continuous improvement to serve our customers better."
+    ]
+  }
+]

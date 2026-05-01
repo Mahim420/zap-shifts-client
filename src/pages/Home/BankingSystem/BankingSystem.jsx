@@ -1,5 +1,6 @@
 import merchantImg from "../../../assets/be-a-merchant-bg.png";
 import locationMerchantImg from "../../../assets/location-merchant.png";
+import Button from "../../../components/Button/Button";
 
 const BankingSystem = () => {
   return (
@@ -23,13 +24,17 @@ const BankingSystem = () => {
           every <br /> corner of Bangladesh right on time.
         </p>
 
+        {/* rounded-full ms-4 btn-outline border-[#CAEB66] text-[#CAEB66] hover:bg-[#CAEB66] hover:text-black */}
+
         <div className="mt-8">
-          <button className="btn rounded-full btn-outline border-[#CAEB66] text-[#CAEB66] hover:bg-[#CAEB66] hover:text-black">
-            Become a Merchant
-          </button>
-          <button className="btn rounded-full ms-4 btn-outline border-[#CAEB66] text-[#CAEB66] hover:bg-[#CAEB66] hover:text-black">
-            Earn with ZapShift Courier
-          </button>
+          <Button
+            className="rounded-full ms-4 btn-outline border-[#CAEB66] text-[#CAEB66] hover:bg-[#CAEB66] hover:text-black"
+            text={"Became a Merchant"}
+          ></Button>
+          <Button
+            className="rounded-full text-[#CAEB66]  ms-4 btn-outline border-[#CAEB66]  hover:bg-[#CAEB66] hover:text-black"
+            text={"Became a Merchant"}
+          ></Button>
         </div>
       </div>
 

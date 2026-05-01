@@ -4,6 +4,7 @@ import bannerImg1 from "../../../assets/banner/banner1.png";
 import bannerImg2 from "../../../assets/banner/banner2.png";
 import bannerImg3 from "../../../assets/banner/banner3.png";
 import { FaArrowCircleLeft } from "react-icons/fa";
+import Button from "../../../components/Button/Button";
 
 const Banner = () => {
   const slides = [
@@ -20,15 +21,14 @@ const Banner = () => {
 
           <section className="absolute left-16 bottom-24">
             <div className="flex items-center gap-3">
-              <button className="btn btn-xs rounded-full sm:btn-sm btn-primary text-black md:btn-md">
-                {slide.text}
-              </button>
+              <Button
+                className="btn-primary rounded-full"
+                text={slide.text}
+              ></Button>
 
               <FaArrowCircleLeft className="text-black rotate-135" size={40} />
 
-              <button className="btn btn-xs sm:btn-sm bg-bage-200 text-black md:btn-md">
-                Be A Rider
-              </button>
+              <Button text={"Be A Rider"}></Button>
             </div>
           </section>
         </article>
